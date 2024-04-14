@@ -107,17 +107,17 @@ const ContactPage = () => {
             <Form onSubmit={handleSubmit}>
               <Form.Group className="mb-3" controlId="formBasicName">
                 <Form.Label>Nimi</Form.Label>
-                <Form.Control type="text" placeholder="Syötä nimi" name="name" value={formData.name} onChange={handleChange} />
+                <Form.Control type="text" placeholder="Syötä nimi" name="name" value={formData.name} onChange={handleChange} maxLength="60"/>
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Sähköposti</Form.Label>
-                <Form.Control type="email" placeholder="Syötä sähköposti" name="email" value={formData.email} onChange={handleChange} />
+                <Form.Control type="email" placeholder="Syötä sähköposti" name="email" value={formData.email} onChange={handleChange} maxLength="60"/>
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicPhone">
                 <Form.Label>Puhelinnumero</Form.Label>
-                <Form.Control type="tel" placeholder="Syötä puhelinnumero" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} />
+                <Form.Control type="tel" placeholder="Syötä puhelinnumero" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} maxLength="16"/>
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicMessage">
