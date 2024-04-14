@@ -122,7 +122,7 @@ const ContactPage = () => {
 
               <Form.Group className="mb-3" controlId="formBasicMessage">
                 <Form.Label>Viestisi</Form.Label>
-                <Form.Control as="textarea" rows={3} placeholder="Kirjoita viestisi" name="message" value={formData.message} onChange={handleChange} />
+                <Form.Control as="textarea" rows={3} placeholder="Kirjoita viestisi" name="message" value={formData.message} onChange={handleChange} maxLength="1000"/>
               </Form.Group>
 
               <Button variant="primary" type='submit'>
