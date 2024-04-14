@@ -20,7 +20,9 @@ const ContactPage = () => {
   };
 
   //const baseUrl = "http://localhost:3001";
-  const baseUrl = "https://virtualitylabs-server.vercel.app";
+  //const baseUrl = "https://virtualitylabs-server.vercel.app";
+  const baseUrl = "https://virtuallabs-server.vercel.app";
+  
 
   const handleSubmit = async(e) => {
     e.preventDefault();

@@ -26,7 +26,7 @@ var cors = function (req, res, next)
 }
 
 const corsOptions = {
-    origin: 'https://virtualitylabs-d14k.vercel.app',
+    origin: 'https://virtuallabs-virid.vercel.app/',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
