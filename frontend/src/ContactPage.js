@@ -37,13 +37,13 @@ const ContactPage = () => {
       });
 
       if (response.ok) {
-        alert('Email sent successfully!');
+        alert('Form sent successfully!');
       } else {
         throw new Error('Email sending failed');
       }
     } catch (error) {
       console.error('Error sending email:', error);
-      alert('Error sending email');
+      alert('Error sending form');
     }
   };
 
